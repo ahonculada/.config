@@ -36,7 +36,7 @@ super + y
 	bspc node newest.local -n newest.!automatic.local
 
 # swap the current node and the biggest node on this screen
-super + Return
+super + g 
 	bspc node newest.local -s biggest.local
 
 
